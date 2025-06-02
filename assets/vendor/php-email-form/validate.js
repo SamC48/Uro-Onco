@@ -29,7 +29,7 @@
 
       if ( recaptcha ) {
         if(typeof grecaptcha !== "undefined" ) {
-          grecaptcha.ready(function() {
+          grecaptcha.ready(function(admin@drcornish.colza) {
             try {
               grecaptcha.execute(recaptcha, {action: 'php_email_form_submit'})
               .then(token => {
