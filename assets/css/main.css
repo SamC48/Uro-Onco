@@ -198,6 +198,9 @@ h6 {
   .navmenu li {
     position: relative;
     margin-left: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
   }
 
   .navmenu a,
@@ -248,6 +251,8 @@ h6 {
   .navmenu .dropdown ul li {
     min-width: 200px;
     margin-left: 0;
+	display: flex;
+	justify-content: center;
   }
 
   .navmenu .dropdown ul a {
@@ -255,6 +260,8 @@ h6 {
     font-size: 15px;
     text-transform: none;
     color: var(--nav-dropdown-color);
+	display: flex;
+	justify-content: center;
   }
 
   .navmenu .dropdown ul a i {
