@@ -1,0 +1,100 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Viewport setup */
+html,
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #071426;
+    color: #ffffff;
+}
+
+/* Main layout */
+.coming-soon {
+    min-height: 100vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Logo */
+.logo {
+    width: min(70vw, 520px);
+    height: auto;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+/* Heading */
+h1 {
+    font-size: clamp(1.8rem, 4vw, 4rem);
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+    .coming-soon {
+        padding: 1.5rem;
+    }
+
+    .logo {
+        width: 85vw;
+        margin-bottom: 1.5rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+}
+
+/* Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .logo {
+        width: 70vw;
+        max-width: 460px;
+    }
+
+    h1 {
+        font-size: 2.4rem;
+    }
+}
+
+/* Small laptops */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .logo {
+        max-width: 500px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+/* Large screens */
+@media screen and (min-width: 1025px) {
+    .logo {
+        max-width: 540px;
+    }
+
+    h1 {
+        font-size: 3.6rem;
+    }
+}
