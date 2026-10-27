@@ -1,0 +1,127 @@
+/* Option 2: scoped to .uo-programme */
+.uo-programme {--purple:#26104f;--deep:#16082f;--violet:#6f3bb4;--orange:#fa653a;--paper:#fbf9ff;--muted:#6c6680;--soft:#f2ebfa}
+.uo-programme * {box-sizing:border-box}
+.uo-programme {font-family:Montserrat,Arial,sans-serif;color:var(--purple);background:#f7f4fb}
+.uo-programme h1, .uo-programme h2, .uo-programme h3, .uo-programme h4, .uo-programme p {margin-top:0}
+.uo-programme .eyebrow {font-size:.75rem;letter-spacing:.17em;text-transform:uppercase;font-weight:800;color:var(--orange)}
+.uo-programme .leadline {font-weight:800;letter-spacing:-.045em}
+.uo-programme .shell {max-width:1180px;margin:auto;padding:65px 24px 90px}
+.uo-programme .intro {max-width:800px}
+.uo-programme .intro h1 {font-size:clamp(2rem,4vw,3.5rem)}
+.uo-programme .intro p {color:#625d70}
+.uo-programme .smallnote {font-size:.82rem;color:#766b88}
+.uo-programme .pill {font-size:.68rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;padding:.4rem .65rem;border-radius:99px;background:#eae1f9;color:#552396}
+.uo-programme .pill.networking {background:#fff0e7;color:#b8481d}
+.uo-programme .pill.registration {background:#e5eefc;color:#35528c}
+.uo-programme .pill.exhibition {background:#ece9ef;color:#625978}
+.uo-programme .pill.conference {background:#eee6fa;color:#6e39ae}
+.uo-programme .time {font-variant-numeric:tabular-nums;font-weight:800}
+.uo-programme .muted {color:var(--muted)}
+.uo-programme .hero-stripe {height:7px;background:linear-gradient(90deg,var(--purple),#954be3,var(--orange));border-radius:20px}
+.uo-programme .custom-button {background:var(--purple);color:white;border:0;border-radius:100px;padding:.8rem 1.3rem;font-weight:700}
+.uo-programme .custom-button:hover {background:#53258f;color:white}
+.uo-programme .custom-button:focus-visible, .uo-programme .clickcard:focus-visible {outline:3px solid var(--orange);outline-offset:3px}
+.uo-programme .legend {display:flex;flex-wrap:wrap;gap:.5rem}
+.uo-programme .badge-dot {width:8px;height:8px;border-radius:100%;background:currentColor;display:inline-block;margin-right:6px}
+.uo-programme .program-foot {margin-top:32px;padding:20px;border-top:1px solid #e4d9ef;font-size:.8rem;color:#746883}
+.uo-programme {background:#faf8fd}
+.uo-programme .mast {background:#2B2945/*var(--deep)*/;color:white;padding:65px 0 40px;position:relative;overflow:hidden}
+.uo-programme .mast:after {content:"";position:absolute;width:450px;height:450px;right:-150px;top:-240px;background:#2B2945 /*radial-gradient(circle,#9e4ab988,transparent 68%)*/}
+.uo-programme .mast .intro p {color:#c5b4da}
+.uo-programme .mast h1 {color:white}
+.uo-programme .workarea {margin-top:-10px;position:relative}
+.uo-programme .filters {background:white;border-radius:22px;border:1px solid #ece5f4;padding:15px;box-shadow:0 10px 35px #18083313}
+.uo-programme .filter-btn {border:1px solid #e6dceb;border-radius:100px;background:white;color:var(--purple);font-weight:700;font-size:.78rem;padding:9px 14px}
+.uo-programme .filter-btn.active {background:var(--orange);color:white;border-color:var(--orange)}
+.uo-programme .date-title {font-size:1.25rem;font-weight:800;margin-bottom:10px;padding-top:30px;padding-left:20px}
+.uo-programme .date-title span {display:block;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:#9a7eaa}
+.uo-programme .rail-entry {display:grid;grid-template-columns:76px 4px 1fr;gap:17px;align-items:stretch;min-height:98px}
+.uo-programme .rail-time {font-size:.9rem;font-weight:800;padding-top:23px}
+.uo-programme .rail-line {width:4px;background:#ebdfef;position:relative}
+.uo-programme .rail-line:before {content:"";position:absolute;top:24px;left:-6px;height:16px;width:16px;background:var(--orange);border:3px solid white;border-radius:100%;box-shadow:0 0 0 1px #ebdfef}
+.uo-programme .rail-card {border:0;border-bottom:1px solid #e9e0ed;background:transparent;padding:16px 10px 22px 3px;display:block;width:100%;text-align:left;color:var(--purple)}
+.uo-programme .rail-card:hover h3 {text-decoration:underline;text-decoration-color:var(--orange);text-underline-offset:5px}
+.uo-programme .rail-card h3 {font-size:1.08rem;font-weight:800}
+.uo-programme .rail-sub {font-size:.8rem;color:var(--muted)}
+.uo-programme .rail-card[aria-expanded=true] .plus {transform:rotate(45deg)}
+.uo-programme .plus {font-size:1.2rem;transition:.2s;color:var(--orange)}
+.uo-programme .details {color:#766b83;font-size:.85rem;padding:10px 0}
+.uo-programme .empty {padding:45px;text-align:center;background:#f2ebfa;border-radius:20px}
+.uo-programme .showing {font-size:.78rem;font-weight:700;color:#8e799c}
+@media (min-width:992px) {.uo-programme .rail-wrap {display:grid;grid-template-columns:200px 1fr;gap:20px;border-radius:10px}
+.uo-programme .date-title {position:sticky;top:26px;align-self:start;font-size:1.6rem}
+.uo-programme .date-title span {font-size:.72rem}}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+	
+}
+
+/* iPad 3 (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (-webkit-min-device-pixel-ratio : 2),
+only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (min-resolution: 192dpi) { 
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+	
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+	
+}
+
+/* Retina displays ----------- */
+@media  only screen 
+and (-webkit-min-device-pixel-ratio : 2), 
+only screen 
+and (min-resolution: 192dpi) {
+
+}

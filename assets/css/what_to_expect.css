@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.why-attend-section-expect {
+  background: #ffffff;
+  position: relative;
+  overflow: visible;
+}
+
+.section-kicker-expect {
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  color: #6f6f8f;
+  font-weight: 600;
+}
+
+.section-title-expect {
+  font-size: clamp(2rem, 4vw, 3.75rem);
+  font-weight: 800;
+  line-height: 1.05;
+  color: #24145f;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.section-title-expect span {
+  color: #f36c21;
+}
+
+.section-subtitle-expect {
+  max-width: 760px;
+  font-size: 1.1rem;
+  color: #5a5a78;
+}
+
+.feature-card-expect {
+  border-radius: 24px;
+  background: #E9E9F7;
+  box-shadow: 0 10px 30px rgba(36, 20, 95, 0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.feature-card-expect:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 38px rgba(36, 20, 95, 0.10);
+}
+
+.feature-card-expect .card-body-expect {
+  padding: 2rem;
+}
+
+.icon-circle-expect {
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  background: #fdf2eb;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.75rem;
+  color: #24145f;
+}
+
+.feature-title-expect {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #24145f;
+  margin-bottom: 1rem;
+}
+
+.feature-text-expect {
+  color: #55556f;
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.feature-accent-expect {
+  width: 48px;
+  height: 4px;
+  border-radius: 999px;
+  background: #f36c21;
+}
