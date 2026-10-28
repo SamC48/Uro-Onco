@@ -67,6 +67,14 @@ body {
   font-family: var(--default-font);
 }
 
+/* Remove Bootstrap 2's outer page gutters on mobile */
+@media (max-width: 767px) {
+  body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 a {
   color: var(--accent-color);
   text-decoration: none;
@@ -5097,4 +5105,12 @@ section,
 
 #uoc27-contact-root .uoc27-contact-highlight {
   color: #f36c21;
+}
+
+/* Image fit */
+
+img-fit {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
